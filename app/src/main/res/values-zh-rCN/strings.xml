@@ -1,0 +1,186 @@
+<resources>
+    <string name="app_name">SdkDemo</string>
+
+
+    <string name="permisson_location_open">去开启</string>
+    <string name="permisson_location_title">位置信息权限未开启</string>
+    <string name="permisson_location_tips">蓝牙搜索需要授权位置信息权限</string>
+
+    <string name="cancel">取消</string>
+    <string name="sure">确认</string>
+    <string name="tips_title">提示</string>
+
+    <string name="main_home_page">首页</string>
+    <string name="main_sdk_not_user">SDK不能使用</string>
+    <string name="main_unbind">解除绑定</string>
+    <string name="main_bind_device_connecr">已绑定设备(已连接)</string>
+    <string name="main_bind_device_unconnected">已绑定设备(未连接)</string>
+    <string name="main_mac_address"> 蓝牙地址：</string>
+
+    <string name="main_pairing">绑定设备</string>
+    <string name="main_no_pairing">未绑定设备</string>
+    <string name="main_device_unconnected">设备未连接</string>
+    <string name="main_send_pairing">发送配对码</string>
+    <string name="main_get_device_info">获取设备信息</string>
+    <string name="main_get_device_state">获取设备状态</string>
+    <string name="main_get_user_info">获取个人信息</string>
+    <string name="main_get_alarm_info">获取闹钟信息</string>
+    <string name="main_get_sedentary_info">获取久坐信息</string>
+    <string name="main_get_target_info">获取目标信息</string>
+    <string name="main_send_message">消息推送</string>
+    <string name="main_get_steps_and_heart">获取当前步数和心率</string>
+    <string name="main_get_steps_and_sleep_history">获取历史步数和睡眠数据</string>
+    <string name="main_get_heart_and_blood_history">获取历史心率和血压</string>
+    <string name="main_set_heart_test">设置心率检测开关</string>
+    <string name="main_reset_device">重置手环</string>
+    <string name="main_heart_warm">心率报警</string>
+    <string name="main_heart_swith">心率报警报关</string>
+    <string name="main_heart_max_value">心率报警最高值</string>
+    <string name="main_heart_min_value">心率报警最低值</string>
+    <string name="main_fz_max_value">舒张压报警最高值</string>
+    <string name="main_fz_min_value">舒张压报警最低值</string>
+    <string name="main_ss_max_value">收缩压报警最高值</string>
+    <string name="main_ss_min_value">收缩压报警最低值</string>
+    <string name="main_oxygen_min_value">血氧报警最低值</string>
+
+
+    <string name="main_current_temp">当前体温</string>
+    <string name="main_history_temp">历史体温数据</string>
+    <string name="main_set_temp_test">设置体温检测开关</string>
+    <string name="main_update">固件升级</string>
+    <string name="main_get_sport_data">运动数据</string>
+    <string name="main_temp_waring">体温报警</string>
+    <string name="main_temp_max_value">体温报警最高值</string>
+    <string name="temp_warm_set">设置体温报警设置</string>
+    <string name="alarm_info_title">闹钟信息</string>
+    <string name="alarm_item_swith">闹钟开关：</string>
+    <string name="alarm_item_cycle">闹钟周期：</string>
+    <string name="alarm_item_time">闹钟时间：</string>
+    <string name="alarm_item_type">闹钟类型：</string>
+
+    <string name="device_info_title">设备信息</string>
+    <string name="device_info_model">设备型号：</string>
+    <string name="device_info_address">设备地址：</string>
+    <string name="device_info_version">设备版本：</string>
+    <string name="device_info_power">设备电量：</string>
+
+    <string name="device_state_title">设备状态</string>
+    <string name="device_state_screen_brightness">屏幕亮度：</string>
+    <string name="device_state_bright_duration">亮屏时长：</string>
+    <string name="device_state_theme">主题：</string>
+    <string name="device_state_language">语言：</string>
+    <string name="device_state_unit">单位：</string>
+    <string name="device_state_time_system">时间制：</string>
+    <string name="device_state_handle_up">抬手亮屏：</string>
+    <string name="device_state_music_control">音乐控制：</string>
+    <string name="device_state_messagr_swith">消息开关：</string>
+    <string name="device_state_hand_hibits">左右手习惯方式：</string>
+
+    <string name="target_info_title">目标信息</string>
+    <string name="target_info_sleep_swith">睡眠目标开关：</string>
+    <string name="target_info_sleep_time">睡眠目标时间：</string>
+    <string name="target_info_steps_swith">步数目标开关：</string>
+    <string name="target_info_steps">步数目标：</string>
+    <string name="target_info_cal_swith">卡路里目标开关：</string>
+    <string name="target_info_cal">卡路里目标：</string>
+    <string name="target_info_distance_swith">距离目标开关：</string>
+    <string name="target_info_distance">距离目标：</string>
+
+    <string name="heart_test_title">心率检测</string>
+    <string name="heart_test_swith">心率检测开关</string>
+    <string name="heart_warm_title">心率报警</string>
+    <string name="heart_warm_set">设置心率报警设置</string>
+
+    <string name="sendentary_info_title">久坐提醒信息</string>
+    <string name="sendentary_info_swith">久坐开关：</string>
+    <string name="sendentary_info_start_time">开始时间：</string>
+    <string name="sendentary_info_end_title">结束时间：</string>
+    <string name="sendentary_info_repet">重复周期：</string>
+    <string name="sendentary_info_cycle">检测周期时间：</string>
+
+    <string name="message_info_title">消息提醒</string>
+    <string name="message_info_english">英语消息</string>
+    <string name="message_info_french">法语消息</string>
+    <string name="message_info_spain">西班牙消息</string>
+    <string name="message_info_german">德语消息</string>
+
+    <string name="heart_history_title">历史心率</string>
+    <string name="heart_history_time">时间：</string>
+    <string name="heart_history_rate">心率：</string>
+    <string name="heart_history_diastolic_pressure">舒张压：</string>
+    <string name="heart_history_systolic_pressure">收缩压：</string>
+
+    <string name="scan_device_info_put_code">请输入配对码</string>
+    <string name="scan_device_info_put_complete_code">请输入完整的配对码</string>
+    <string name="scan_device_info_put_error">对码输入错误，请重新输入！</string>
+    <string name="scan_device_blu_not_open">蓝牙未打开</string>
+    <string name="scan_device_binding">正在绑定</string>
+    <string name="scan_device_open_set">请开启蓝牙用于连接设备</string>
+    <string name="scan_device_set">设置</string>
+
+
+    <string name="step_and_sleep_history_title">历史步数和睡眠数据</string>
+    <string name="step_history_title">历史步数</string>
+    <string name="cal_rating_title">静息卡路里数据</string>
+    <string name="sleep_history_title">历史睡眠</string>
+    <string name="step_history_no_data">无历史步数数据</string>
+    <string name="sleep_history_no_data">无历史睡眠数据</string>
+
+    <string name="step_history_time">时间</string>
+    <string name="step_history_steps">步数</string>
+    <string name="step_history_cal">卡路里</string>
+    <string name="step_history_distance">距离</string>
+    <string name="sleep_history_status">睡眠状态</string>
+
+    <string name="sport_info_title">运动数据</string>
+    <string name="sport_info_time">运动时间：</string>
+    <string name="sport_info_duration">运动时长：</string>
+    <string name="sport_info_type">运动类型：</string>
+    <string name="sport_info_cal">消耗卡路里：</string>
+    <string name="sport_info_steps">行走步数：</string>
+    <string name="sport_info_dis">行走距离：</string>
+    <string name="sport_info_speed">平均配速：</string>
+    <string name="sport_info_heart">运动心率：</string>
+    <string name="sport_info_no_heart">运动心率：无</string>
+
+    <string name="steps_current_title">当前步数</string>
+    <string name="steps_current_steps">当前步数：</string>
+    <string name="steps_current_cal">当前卡路里：</string>
+    <string name="steps_current_dis">当前距离：</string>
+    <string name="steps_current_heart">当前心率：</string>
+    <string name="steps_current_diastolic">舒张压：</string>
+    <string name="steps_current_systolic">收缩压：</string>
+
+    <string name="user_info_title">用户信息</string>
+    <string name="user_info_sex">性别：</string>
+    <string name="user_info_age">年龄：</string>
+    <string name="user_info_height">身高：</string>
+    <string name="user_info_weight">体重：</string>
+    <string name="user_info_stride">步长：</string>
+
+    <string name="btn_submit">查询数据</string>
+    <string name="toast_info">请填写完成的信息</string>
+
+
+    <string name="temp_heandle">手腕温度：</string>
+    <string name="temp_forehead">额头温度：</string>
+    <string name="temp_nodata">当前温度：没有温度数据</string>
+    <string name="temp_current">当前温度：</string>
+    <string name="temp_test_swith">体温检测开关</string>
+
+
+    <string name="toast_set_success">设置成功</string>
+
+    <string name="commmon_no_data">暂无数据</string>
+
+
+    <string name="permisson_phone_title">电话权限未开启</string>
+    <string name="permisson_phone_tips">来电提醒需要授权电话和通讯录权限</string>
+    <string name="permisson_sms_title">短信权限未开启</string>
+    <string name="permisson_sms_tips">短信提醒需要授权短信权限</string>
+    <string name="permisson_notication_title">通知栏权限未开启</string>
+    <string name="permisson_notication_tips">开启通知栏权限，Runmifit才可以正常进行通知</string>
+    <string name="app_notice_title">"app"正在运行</string>
+    <string name="app_notice_tips">点击了解详情或停止应用</string>
+    <string name="confirmed" >已完成</string>
+</resources>

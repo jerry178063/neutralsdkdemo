@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhj.bluetooth.sdkdemo.views.ItemToggleLayout
+        android:id="@+id/itTempWarn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:bottom_line_color="@color/driver_color"
+        app:bottom_line_width="1dp"
+        app:has_bottom_line="true"
+        app:lable_text="@string/main_heart_swith"
+        app:opened="true"
+        app:right_arrow="@mipmap/v_right_s"
+        app:valueTextColor="@color/small_font_color"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="@string/main_temp_max_value"/>
+
+        <EditText
+            android:id="@+id/etVaule"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

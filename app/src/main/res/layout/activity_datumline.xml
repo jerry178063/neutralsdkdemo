@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="心率基准值"/>
+
+        <EditText
+            android:id="@+id/etVauleHeart"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="舒张压基准值"/>
+
+        <EditText
+            android:id="@+id/etVauleFz"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="收缩压基准值"/>
+
+        <EditText
+            android:id="@+id/etVauleSs"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="血氧基准值"/>
+
+        <EditText
+            android:id="@+id/etVauleOxygen"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

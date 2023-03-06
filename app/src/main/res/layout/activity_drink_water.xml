@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.zhj.bluetooth.sdkdemo.views.ItemToggleLayout
+        android:id="@+id/itDrinkWater"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:visibility="visible"
+        app:bottom_line_color="@color/driver_color"
+        app:bottom_line_width="1dp"
+        app:has_bottom_line="true"
+        app:lable_text="喝水提醒开关"
+        app:opened="true"
+        app:right_arrow="@mipmap/v_right_s"
+        app:valueTextColor="@color/small_font_color"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

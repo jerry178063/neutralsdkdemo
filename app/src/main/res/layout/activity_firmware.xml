@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+        <ProgressBar
+            android:id="@+id/pb_update_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:progressTint="#44A7ED"
+            android:layout_marginTop="@dimen/size15dp"
+            android:max="100"
+            android:progress="0"
+            android:layout_toLeftOf="@id/progressRate"
+            android:layout_marginRight="@dimen/size10dp"
+            android:layout_centerVertical="true"
+            tools:ignore="NotSibling,RtlHardcoded,UnusedAttribute" />
+        <TextView
+            android:id="@+id/progressRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/font_16"
+            android:textColor="#44A7ED"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="0%"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/small_font_color"/>
+
+    <TextView
+        android:id="@+id/tvTips2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_16"
+        android:layout_marginTop="@dimen/size10dp"/>
+
+    <Button
+        android:id="@+id/startDfu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始升级"/>
+
+
+</LinearLayout>

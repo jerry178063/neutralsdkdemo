@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_16"
+                android:layout_marginTop="30dp"/>
+            <TextView
+                android:id="@+id/tvMac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textSize="@dimen/font_14"/>
+
+            <Button
+                android:id="@+id/btnSendPairing"
+                android:text="@string/main_send_pairing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnDeviceInfo"
+                android:text="@string/main_get_device_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnDeviceState"
+                android:text="@string/main_get_device_state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnUserInfo"
+                android:text="@string/main_get_user_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnAlarmInfo"
+                android:text="@string/main_get_alarm_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnLongSitInfo"
+                android:text="@string/main_get_sedentary_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnGoalInfo"
+                android:text="@string/main_get_target_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnNoticeInfo"
+                android:text="获取设备通知开关"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnSendMessage"
+                android:text="@string/main_send_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/btnGetSteps"
+                android:text="@string/main_get_steps_and_heart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/btnGetSleep"
+                android:text="@string/main_get_steps_and_sleep_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/btnGetRateHistory"
+                android:text="@string/main_get_heart_and_blood_history"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/btnSetHeartTest"
+                android:text="@string/main_set_heart_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/btnReset"
+                android:text="@string/main_reset_device"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnHeartWarn"
+                android:text="@string/main_heart_warm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/btnSportActivity"
+                android:text="@string/main_get_sport_data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/tvShowSleepsResting"
+                android:text="@string/cal_rating_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/tvCurrentTemp"
+                android:text="@string/main_current_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvHistoryTemp"
+                android:text="@string/main_history_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+            <Button
+                android:id="@+id/tvTempTest"
+                android:text="@string/main_set_temp_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvDfu"
+                android:text="Nodical升级"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvDfuOta"
+                android:text="泰凌微升级"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvTempWaring"
+                android:text="@string/main_temp_waring"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:id="@+id/tvWeather"
+                android:text="设置天气"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvSenfDialCenter"
+                android:text="设置表盘"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+
+            <Button
+                android:id="@+id/tvDrinkWater"
+                android:text="喝水提醒"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvDisturb"
+                android:text="勿扰模式"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvSportMode"
+                android:text="运动模式"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvEcg"
+                android:text="心电测量"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvDatumLine"
+                android:text="心率基准下"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+            <Button
+                android:id="@+id/tvTelepho"
+                android:text="电话接听挂断"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

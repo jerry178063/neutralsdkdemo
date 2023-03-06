@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/size15dp"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"/>
+
+    <TextView
+        android:id="@+id/tvDurations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+
+    <TextView
+        android:id="@+id/tvCalories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+    <TextView
+        android:id="@+id/tvSteps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+
+    <TextView
+        android:id="@+id/tvAvgSpeed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+
+    <TextView
+        android:id="@+id/tvHeart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/normal_font_color"
+        android:textSize="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_10"/>
+</LinearLayout>

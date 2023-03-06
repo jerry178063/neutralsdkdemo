@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <com.zhj.bluetooth.sdkdemo.views.ItemToggleLayout
+            android:id="@+id/itHeartWarn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:bottom_line_color="@color/driver_color"
+            app:bottom_line_width="1dp"
+            app:has_bottom_line="true"
+            app:lable_text="@string/main_heart_swith"
+            app:opened="true"
+            app:right_arrow="@mipmap/v_right_s"
+            app:valueTextColor="@color/small_font_color"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_heart_max_value"/>
+
+            <EditText
+                android:id="@+id/etVauleHrMax"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_heart_min_value"/>
+
+            <EditText
+                android:id="@+id/etVauleHrMin"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+
+
+        <com.zhj.bluetooth.sdkdemo.views.ItemToggleLayout
+            android:id="@+id/itPressWarn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:bottom_line_color="@color/driver_color"
+            app:bottom_line_width="1dp"
+            app:has_bottom_line="true"
+            app:lable_text="血压报警开关"
+            app:opened="true"
+            app:right_arrow="@mipmap/v_right_s"
+            app:valueTextColor="@color/small_font_color"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_fz_max_value"/>
+
+            <EditText
+                android:id="@+id/etVauleFzMax"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_fz_min_value"/>
+
+            <EditText
+                android:id="@+id/etVauleFzMin"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_ss_max_value"/>
+
+            <EditText
+                android:id="@+id/etVauleSsMax"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_ss_min_value"/>
+
+            <EditText
+                android:id="@+id/etVauleSsMin"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+
+        </RelativeLayout>
+
+        <com.zhj.bluetooth.sdkdemo.views.ItemToggleLayout
+            android:id="@+id/itOxygenWarn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:visibility="visible"
+            app:bottom_line_color="@color/driver_color"
+            app:bottom_line_width="1dp"
+            app:has_bottom_line="true"
+            app:lable_text="血氧报警开关"
+            app:opened="true"
+            app:right_arrow="@mipmap/v_right_s"
+            app:valueTextColor="@color/small_font_color"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/size15dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/font_14"
+                android:textColor="#333333"
+                android:layout_marginLeft="30dp"
+                android:text="@string/main_oxygen_min_value"/>
+
+            <EditText
+                android:id="@+id/etVauleOxygenMin"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:textColor="#333333"
+                android:layout_marginRight="@dimen/size15dp"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:inputType="number"
+                android:background="@drawable/edit_diglog_bg"/>
+        </RelativeLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="天气单位"/>
+
+        <EditText
+            android:id="@+id/etWeatherUnit"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="温度"/>
+
+        <EditText
+            android:id="@+id/etWeatherTemp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="numberSigned"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/size15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/font_14"
+            android:textColor="#333333"
+            android:layout_marginLeft="30dp"
+            android:text="天气类型"/>
+
+        <EditText
+            android:id="@+id/etWeatherType"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#333333"
+            android:layout_marginRight="@dimen/size15dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:inputType="number"
+            android:background="@drawable/edit_diglog_bg"/>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

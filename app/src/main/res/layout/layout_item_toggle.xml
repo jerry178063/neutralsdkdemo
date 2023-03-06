@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/left_drawable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/x20"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/lable"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/x20"
+        android:layout_toEndOf="@id/left_drawable"
+        android:ellipsize="end"
+        android:gravity="center_vertical"
+        android:maxWidth="250dp"
+        android:singleLine="true"
+        android:textColor="@color/normal_font_color"
+        android:textSize="15sp" />
+
+    <com.zhj.bluetooth.sdkdemo.util.CustomToggleButton
+        android:id="@+id/toggle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/x20"
+        android:padding="2dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@id/toggle"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@anim/progress_drawable"
+        android:indeterminateDuration="800" />
+</RelativeLayout>
